@@ -32,14 +32,16 @@ const TestPage = ({ getAPI, loading, data, meta }) => {
         <Row justify="space-around">
           <Text>You can try any feature of this base code.</Text>
         </Row>
-        <Row justify="space-around" style={{ margin: 20 }}>
-          <Button type={data && meta ? "default" : "primary"} danger={data && meta} onClick={getAPI} loading={loading} shape="round">
-            { data && meta ? "Clear Data" : "Call API" }
-          </Button>
-        </Row>
-        <Row justify="space-around">
-          { data && meta && !loading ? <Text>{JSON.stringify(meta)} - {data}</Text> : <Text>N/A</Text> }
-        </Row>
+        <Space direction="vertical" style={{ width: '100%', marginTop: 20 }}>
+          <Row justify="space-around">
+            <Button type={data && meta ? "default" : "primary"} danger={data && meta} onClick={getAPI} loading={loading} shape="round">
+              { data && meta ? "Clear Data" : "Call API" }
+            </Button>
+          </Row>
+          <Row justify="space-around">
+          <Text strong>{ data && meta && !loading ? `${JSON.stringify(meta)} - ${data}` : "N/A" }</Text>
+          </Row>
+        </Space>
         <Row justify="center" style={{ marginTop: 50 }}>
           <Space>
             <Popconfirm
