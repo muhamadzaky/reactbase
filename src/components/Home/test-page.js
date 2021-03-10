@@ -12,15 +12,15 @@ import moment from 'moment';
 
 const TestPage = ({ getAPI, loading, data, meta }) => {
   const { Title, Text } = Typography;
-  const cookies = new Cookies()
+  const cookies = new Cookies();
 
   const onYes = () => {
-    const date = moment(new Date()).add(1, 'hours').utc()._d
+    const date = moment(new Date()).add(1, 'hours').utc()._d;
     const addCookies = async () => {
-      cookies.set("session", true, { path: '/', expires: date })
+      cookies.set("session", true, { path: '/', expires: date });
     }
 
-    addCookies().then(() => { history.push("/PrivatePage") })
+    addCookies().then(() => { history.push("/PrivatePage") });
   }
 
   return (

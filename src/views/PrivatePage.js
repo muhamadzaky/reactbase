@@ -5,9 +5,9 @@ import Cookies from 'universal-cookie';
 const PrivatePage = () => {
   const { Title, Text } = Typography;
   const removeCookies = () => {
-    const cookies = new Cookies()
-    cookies.remove("session")
-    history.push("/")
+    const cookies = new Cookies();
+    cookies.remove("session");
+    history.push("/");
   }
   return (
     <Row className="container" justify="space-around" align="middle">
