@@ -59,8 +59,8 @@ const TestPage = ({ getAPI, loading, data, meta }) => {
           </Space>
         </Row>
         <Row justify="center" align="middle" style={{ marginTop: 30 }}>
-          {/* <Text>&copy;{ moment(new Date()).format('YYYY') } - Developed with <HeartFilled style={{ color: '#ea4c89' }} /> by Muhamad Zaky</Text> */}
-          <Text>{t('common.footer', { year: moment(new Date()).format('YYYY'), icon: <HeartFilled style={{ color: '#ea4c89' }} /> } )}</Text>
+          <Text>&copy;{ moment(new Date()).format('YYYY') } - Developed with <HeartFilled style={{ color: '#ea4c89' }} /> by Muhamad Zaky</Text>
+          {/* <Text>{t('common.footer', { year: moment(new Date()).format('YYYY'), icon: <HeartFilled style={{ color: '#ea4c89' }} /> } )}</Text> */}
         </Row>
       </Col>
     </Row>
