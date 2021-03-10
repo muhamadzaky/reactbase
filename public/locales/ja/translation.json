@@ -1,0 +1,28 @@
+{
+  "reactDefault": {
+    "title": "src/App.jsを編集し、保存して再読み込みします。",
+    "subtitle": "Reactを学ぶ。",
+    "scrollItem": "概要ページまでスクロールします"
+  },
+  "overview": {
+    "title": "こんにちは！ 概要ページへようこそ。",
+    "subtitle": "このベースコードの任意の機能を試すことができます。",
+    "callAPI": "APIを呼び出す",
+    "clearAPI": "クリアAPI",
+    "privPage": "プライベートページの例",
+    "privPageTitle": "このページは、任意の条件で制限することもできます。",
+    "pubPage": "パブリックページの例",
+    "pubPageTitle": "これは、誰でも許可なくページにアクセスできるパブリックルートです。"
+  },
+  "common": {
+    "home": "ホーム",
+    "cookie_permission": "制限されたページにアクセスするためにCookieを追加しますか？",
+    "yes": "はい",
+    "no": "いいえ",
+    "delete_cookie": "クッキーデータの削除"
+  },
+  "feedback": {
+    "pagenotfound": "申し訳ありませんが、アクセスしたページは存在しません。",
+    "footer": "©{{year}} - MuhamadZakyによって{{icon}}で開発されました"
+  }
+}

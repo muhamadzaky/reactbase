@@ -10,12 +10,12 @@ import { FINISH_GET_DATA, REMOVE_DATA, START_GET_DATA } from "./home-action-type
 
 export const GetData = () => dispatch => {
   dispatch(startGetData());
-  api.get('/test')
+  api.get(`/test/${localStorage.getItem('i18nextLng') ? localStorage.getItem('i18nextLng') : "en"}`)
   .then(res => {
-    dispatch(finishGetData(res.data))
+    dispatch(finishGetData(res.data));
   })
   .catch(() => {
-    dispatch(finishGetData({}))
+    dispatch(finishGetData({}));
   })
 }
 

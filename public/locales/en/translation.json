@@ -1,0 +1,28 @@
+{
+  "reactDefault": {
+    "title": "Edit src/App.js and save to reload.",
+    "subtitle": "Learn React",
+    "scrollItem": "Scroll to Overview Page"
+  },
+  "overview": {
+    "title": "Hello! Welcome to overview page.",
+    "subtitle": "You can try any feature of this base code.",
+    "callAPI": "Call API",
+    "clearAPI": "Clear API",
+    "privPage": "Private Page Example",
+    "privPageTitle": "You can restrict this page with any condition you want too.",
+    "pubPage": "Public Page Example",
+    "pubPageTitle": "This is a public route that anyone can access the page without authorization."
+  },
+  "common": {
+    "home": "Home",
+    "cookie_permission": "Add Cookie to access the restricted page?",
+    "yes": "Yes",
+    "no": "No",
+    "delete_cookie": "Delete Cookies Data",
+    "footer": "©{{year}} - Developed with {{icon}} by Muhamad Zaky"
+  },
+  "feedback": {
+    "pagenotfound": "Sorry, the page you visited does not exist."
+  }
+}
