@@ -2,7 +2,6 @@ import { Provider } from 'react-redux';
 import { configureStore } from '../common/services/store/index';
 import { Router, Route, Switch } from 'react-router-dom';
 import { withTranslation } from 'react-i18next';
-import { Layout } from 'antd';
 import history from '../common/routes/history';
 import '../assets/scss/App.scss';
 import 'antd/dist/antd.css';
@@ -15,7 +14,6 @@ import PublicPage from './PublicPage';
 import NotFound404 from '../components/Feedback/NotFound404';
 
 const App = () => {
-  const { Footer } = Layout;
   return (
     <Provider store={configureStore}>
       <Router history={history}>

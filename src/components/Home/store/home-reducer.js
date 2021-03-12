@@ -44,7 +44,7 @@ const handler = currentState => {
   }
 }
 
-export default (state = inisialState, action) => {
+const reducerSwitch = (state = inisialState, action) => {
   const { payload, type } = action;
   switch (type) {
     case START_GET_DATA:
@@ -57,3 +57,5 @@ export default (state = inisialState, action) => {
       return state;
   }
 }
+
+export default reducerSwitch;

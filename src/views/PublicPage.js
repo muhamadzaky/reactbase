@@ -9,10 +9,10 @@ const PublicPage = () => {
      <Row className="container" justify="space-around" align="middle">
       <Col>
         <Row justify="space-around">
-          <Title>{t('overview.prubPage')}</Title>
+          <Title>{t('overview.pubPage')}</Title>
         </Row>
         <Row justify="space-around">
-          <Text>{t('overview.prubPageTitle')}</Text>
+          <Text>{t('overview.pubPageTitle')}</Text>
         </Row>
         <Row justify="space-around" style={{ marginTop: 20 }}>
           <Button type="primary" shape="round" onClick={() => history.push("/")}>{t('common.home')}</Button>
