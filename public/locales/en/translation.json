@@ -20,9 +20,14 @@
     "yes": "Yes",
     "no": "No",
     "delete_cookie": "Delete Cookies Data",
-    "footer": "©{{year}} - Developed with {{icon}} by Muhamad Zaky"
+    "footer": "©{{year}} - Developed with {{icon}} by Muhamad Zaky",
+    "ok": "OK"
   },
   "feedback": {
     "pagenotfound": "Sorry, the page you visited does not exist."
+  },
+  "permission": {
+    "cookiesTitle": "Cookies!",
+    "cookiesDescription": "We use cookie to make your experience better"
   }
 }

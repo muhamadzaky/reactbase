@@ -19,10 +19,15 @@
     "cookie_permission": "制限されたページにアクセスするためにCookieを追加しますか？",
     "yes": "はい",
     "no": "いいえ",
-    "delete_cookie": "クッキーデータの削除"
+    "delete_cookie": "クッキーデータの削除",
+    "footer": "©{{year}} - MuhamadZakyによって{{icon}}で開発されました",
+    "ok": "了解"
   },
   "feedback": {
-    "pagenotfound": "申し訳ありませんが、アクセスしたページは存在しません。",
-    "footer": "©{{year}} - MuhamadZakyによって{{icon}}で開発されました"
+    "pagenotfound": "申し訳ありませんが、アクセスしたページは存在しません。"
+  },
+  "permission": {
+    "cookiesTitle": "クッキー！",
+    "cookiesDescription": "私たちはあなたの経験をより良くするためにクッキーを使用します"
   }
 }
