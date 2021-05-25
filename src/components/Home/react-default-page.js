@@ -6,6 +6,8 @@ import { useTranslation } from 'react-i18next';
 import ReactCountryFlag from 'react-country-flag';
 import logo from '../../assets/images/logo.svg';
 
+import './styles/react-default-page.scss';
+
 const ReactDefaultPage = () => {
   const { t, i18n } = useTranslation();
   const { Option } = Select;
@@ -29,10 +31,10 @@ const ReactDefaultPage = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <Row style={{ position: 'absolute', top: 10, right: 10 }}>
+        <Row className="language-select-wrapper">
           <Select
             onChange={handleLng}
-            style={{ width: 80 }}
+            className="language-selector"
             value={Lng}
           >
             { lngList.map(item => {
